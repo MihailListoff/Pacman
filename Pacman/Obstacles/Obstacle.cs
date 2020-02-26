@@ -7,5 +7,10 @@ namespace Pacman
 {
     public class Obstacle:Cell
     {
+        public Obstacle(Coordinate coordinate) : base(coordinate) 
+        {
+            
+        }
+
     }
 }

@@ -7,10 +7,9 @@ namespace Pacman
 {
     public class Bonus:Thing
     {
-        private EnumBonus _typeOfBonus;
 
 
-        Bonus(EnumBonus typeOfBonus, Coordinate coordinate):base(coordinate)
+        public Bonus(Coordinate coordinate):base(coordinate)
         {
 
         }

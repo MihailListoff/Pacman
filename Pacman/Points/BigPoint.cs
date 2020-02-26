@@ -5,8 +5,13 @@ using System.Text;
 
 namespace Pacman
 {
-    public class Point : Thing
+    public class BigPoint : Point
     {
-        private bool _isEnergizers;
+
+        BigPoint(Coordinate coordinate) : base(coordinate)
+        {
+
+
+        }
     }
 }

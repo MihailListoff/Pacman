@@ -5,12 +5,9 @@ using System.Text;
 
 namespace Pacman
 {
-    public enum EnumBonus
+    public interface IMovable
     {
-        NoBonus = 0,
-        Freezing,
-        Cherry,
-
+        void Move(Coordinate currentCoordinate, Coordinate nextCoordinate);               
 
     }
 }

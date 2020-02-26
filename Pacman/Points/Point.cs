@@ -5,7 +5,15 @@ using System.Text;
 
 namespace Pacman
 {
-    public class Ghost:Subject
+    public class Point : Thing
     {
+
+        public Point(Coordinate coordinate):base(coordinate)
+        {
+
+        }
+
+     
+
     }
 }

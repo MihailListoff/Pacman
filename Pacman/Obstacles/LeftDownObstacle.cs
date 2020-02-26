@@ -5,9 +5,9 @@ using System.Text;
 
 namespace Pacman
 {
-    public class Subject : Cell
+    public class LeftDownObstacle : Obstacle
     {
-        public void Move()
+        public LeftDownObstacle(Coordinate coordinate) : base(coordinate)
         {
 
         }

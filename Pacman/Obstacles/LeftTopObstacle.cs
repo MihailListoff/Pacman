@@ -5,12 +5,11 @@ using System.Text;
 
 namespace Pacman
 {
-    public class Thing : Cell
+    public class LeftTopObstacle : Obstacle
     {
 
-        public Thing(Coordinate coordinate):base(coordinate)
+        public LeftTopObstacle(Coordinate coordinate) : base(coordinate)
         {
-
 
         }
     }

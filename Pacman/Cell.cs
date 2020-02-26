@@ -15,9 +15,12 @@ namespace Pacman
             _coordinate = coordinate;
         }
 
-        public Coordinate GetPosition()
+        public Coordinate Coordinate
         {
-            throw new System.NotImplementedException();
+            get
+            {
+                return this.Coordinate;
+            }
         }
 
 

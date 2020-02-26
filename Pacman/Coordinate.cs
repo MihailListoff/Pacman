@@ -32,9 +32,6 @@ namespace Pacman
             }
         }
 
-        public void Move(int dx, int dy) 
-        {
-        
-        }
+
     }
 }
